@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.flex,
+.hflex,
+.vflex {
+    display: flex;
+    align-items: center;
+}
+
+.vflex {
+    flex-direction: column;
+}
+
+.tab-container {
+    background-color: #A080A080;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    flex: 1 1 auto;
+}
+
+.tab {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#content {
+    background: radial-gradient(lightblue, lightgreen, white, yellow);
+    height: 100%;
+    gap: 24px;
+    align-items: stretch;
+}
+
+.header-section {
+    background-color: #A080A080;
+}
+
+.main-section {
+    flex: 1 1 auto;
+}
+
+.footer-section {
+    background-color: #A080A080;
+}
