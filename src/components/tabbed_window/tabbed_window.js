@@ -74,7 +74,7 @@ export const TabbedWindowElement = (() => {
                 throw new Error("Index out of bounds!");
 
             if (index < 0)
-                index = this.tabs.length - index;
+                index = this.tabs.length + index;
 
             const tab = createTab();
             tab.name = name;
