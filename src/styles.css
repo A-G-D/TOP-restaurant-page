@@ -15,20 +15,6 @@ body {
     flex-direction: column;
 }
 
-.tab-container {
-    background-color: #A080A080;
-    border: 1px solid gray;
-    justify-content: center;
-    align-items: flex-start;
-    width: 75%;
-    flex: 1 1 auto;
-}
-
-.tab {
-    border: 1px solid black;
-    cursor: pointer;
-}
-
 #content {
     background: radial-gradient(lightblue, lightgreen, white, yellow);
     height: 100%;
@@ -38,6 +24,7 @@ body {
 
 .header-section {
     background-color: #A080A080;
+    justify-content: center;
 }
 
 .main-section {

@@ -1,0 +1,95 @@
+.tabbed-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 480px;
+    width: 75%;
+    flex: 1 1 auto;
+}
+
+.tab-links {
+    background-color: #808080;
+    border: 1px solid black;
+    border-bottom: 0px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 8px 0px 8px;
+}
+
+.tab-link-template {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+.tab-link-template.active {
+    color: rgba(0, 0, 0, 1);
+    background-color: #A0A0A0C0;
+    box-shadow: #404040 0px 0px 3px 0px; 
+}
+
+.tab-link-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 0px;
+}
+
+.tab-contents {
+    background-color: #808080;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.tab-content-template {
+    background-color: #A0A0A0;
+    border: 1px solid black;
+    border-top: 0px;
+    border-radius: 0 0 12px 12px;
+    display: none;
+    flex: 1 1 auto;
+    padding: 8px 12px;
+}
+
+.tab-content-template.active {
+    display: block;
+}
+
+.new-tab-button {
+    text-align: center;
+    font-family: Consolas;
+    cursor: pointer;
+    border-radius: 25%;
+    padding: 4px;
+    width: 16px;
+    height: 16px;
+    margin-left: 24px;
+}
+
+.new-tab-button:hover {
+    background-color: #404040;
+}
+
+.close-tab-button {
+    text-align: center;
+    font-family: Consolas;
+    cursor: pointer;
+    padding: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.close-tab-button:hover {
+    background-color: #404040;
+}
